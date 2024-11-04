@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Namit&#39;s Blogs</title>
+    <link>https://knamit.github.io/blogs/tags/</link>
+    <description>Recent content in Tags on Namit&#39;s Blogs</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://knamit.github.io/blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bandit</title>
+      <link>https://knamit.github.io/blogs/tags/bandit/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/bandit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://knamit.github.io/blogs/tags/linux/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natas</title>
+      <link>https://knamit.github.io/blogs/tags/natas/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/natas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overthewire</title>
+      <link>https://knamit.github.io/blogs/tags/overthewire/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/overthewire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://knamit.github.io/blogs/tags/security/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Security</title>
+      <link>https://knamit.github.io/blogs/tags/web-security/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://knamit.github.io/blogs/tags/web-security/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
