@@ -1,0 +1,381 @@
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere/
+bandit5@bandit:~/inhere$ ls -la
+total 88
+drwxr-x--- 22 root bandit5 4096 Sep 19 07:08 .
+drwxr-xr-x  3 root root    4096 Sep 19 07:08 ..
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere00
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere01
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere02
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere03
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere04
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere05
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere06
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere07
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere08
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere09
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere10
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere11
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere12
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere13
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere14
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere15
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere16
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere17
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere18
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere19
+bandit5@bandit:~/inhere$ ls -la maybehere09
+total 76
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 .
+drwxr-x--- 22 root bandit5 4096 Sep 19 07:08 ..
+-rwxr-x---  1 root bandit5 3628 Sep 19 07:08 -file1
+-rwxr-x---  1 root bandit5 6763 Sep 19 07:08 .file1
+-rw-r-----  1 root bandit5  774 Sep 19 07:08 -file2
+-rw-r-----  1 root bandit5 8517 Sep 19 07:08 .file2
+-rwxr-x---  1 root bandit5 7961 Sep 19 07:08 -file3
+-rwxr-x---  1 root bandit5 3798 Sep 19 07:08 .file3
+-rwxr-x---  1 root bandit5 5301 Sep 19 07:08 spaces file1
+-rw-r-----  1 root bandit5 8716 Sep 19 07:08 spaces file2
+-rwxr-x---  1 root bandit5 7569 Sep 19 07:08 spaces file3
+bandit5@bandit:~/inhere$ file */{.,}* 
+maybehere00/.file1:       ASCII text, with very long lines (550)
+maybehere00/.file2:       ASCII text, with very long lines (7835)
+maybehere00/.file3:       data
+maybehere01/.file1:       Clarion Developer (v2 and above) memo data
+maybehere01/.file2:       ASCII text, with very long lines (3069)
+maybehere01/.file3:       data
+maybehere02/.file1:       ASCII text, with very long lines (6350)
+maybehere02/.file2:       ASCII text, with very long lines (2576)
+maybehere02/.file3:       data
+maybehere03/.file1:       ASCII text, with very long lines (9768)
+maybehere03/.file2:       ASCII text, with very long lines (8879)
+maybehere03/.file3:       data
+maybehere04/.file1:       ASCII text, with very long lines (2439)
+maybehere04/.file2:       ASCII text, with very long lines (6143)
+maybehere04/.file3:       data
+maybehere05/.file1:       ASCII text, with very long lines (3200)
+maybehere05/.file2:       ASCII text, with very long lines (5916)
+maybehere05/.file3:       data
+maybehere06/.file1:       ASCII text, with very long lines (1270)
+maybehere06/.file2:       ASCII text, with very long lines (8975)
+maybehere06/.file3:       data
+maybehere07/.file1:       ASCII text, with very long lines (3064)
+maybehere07/.file2:       ASCII text, with very long lines (1000)
+maybehere07/.file3:       OpenPGP Public Key
+maybehere08/.file1:       ASCII text, with very long lines (8168)
+maybehere08/.file2:       ASCII text, with very long lines (746)
+maybehere08/.file3:       data
+maybehere09/.file1:       ASCII text, with very long lines (6762)
+maybehere09/.file2:       ASCII text, with very long lines (8516)
+maybehere09/.file3:       data
+maybehere10/.file1:       ASCII text, with very long lines (7091)
+maybehere10/.file2:       ASCII text
+maybehere10/.file3:       data
+maybehere11/.file1:       ASCII text, with very long lines (451)
+maybehere11/.file2:       ASCII text, with very long lines (2500)
+maybehere11/.file3:       data
+maybehere12/.file1:       ASCII text, with very long lines (5814)
+maybehere12/.file2:       ASCII text, with very long lines (8243)
+maybehere12/.file3:       data
+maybehere13/.file1:       ASCII text, with very long lines (5257)
+maybehere13/.file2:       ASCII text, with very long lines (8951)
+maybehere13/.file3:       data
+maybehere14/.file1:       ASCII text, with very long lines (3426)
+maybehere14/.file2:       ASCII text, with very long lines (1502)
+maybehere14/.file3:       data
+maybehere15/.file1:       ASCII text, with very long lines (2158)
+maybehere15/.file2:       ASCII text
+maybehere15/.file3:       data
+maybehere16/.file1:       ASCII text, with very long lines (5425)
+maybehere16/.file2:       ASCII text, with very long lines (8471)
+maybehere16/.file3:       DOS executable (COM), start instruction 0x8cfa2314 44ee920f
+maybehere17/.file1:       ASCII text, with very long lines (894)
+maybehere17/.file2:       ASCII text, with very long lines (8340)
+maybehere17/.file3:       data
+maybehere18/.file1:       ASCII text, with very long lines (5701)
+maybehere18/.file2:       ASCII text, with very long lines (2083)
+maybehere18/.file3:       data
+maybehere19/.file1:       ASCII text, with very long lines (7208)
+maybehere19/.file2:       ASCII text, with very long lines (4739)
+maybehere19/.file3:       Dyalog APL version -115.21
+maybehere00/-file1:       ASCII text, with very long lines (1038)
+maybehere00/-file2:       ASCII text, with very long lines (9387)
+maybehere00/-file3:       OpenPGP Secret Key
+maybehere00/spaces file1: ASCII text, with very long lines (6117)
+maybehere00/spaces file2: ASCII text, with very long lines (6849)
+maybehere00/spaces file3: data
+maybehere01/-file1:       ASCII text, with very long lines (6027)
+maybehere01/-file2:       ASCII text
+maybehere01/-file3:       data
+maybehere01/spaces file1: ASCII text, with very long lines (4138)
+maybehere01/spaces file2: ASCII text, with very long lines (4542)
+maybehere01/spaces file3: data
+maybehere02/-file1:       ASCII text, with very long lines (3800)
+maybehere02/-file2:       X1 archive data
+maybehere02/-file3:       data
+maybehere02/spaces file1: ASCII text, with very long lines (6745)
+maybehere02/spaces file2: ASCII text, with very long lines (8487)
+maybehere02/spaces file3: data
+maybehere03/-file1:       ASCII text, with very long lines (314)
+maybehere03/-file2:       ASCII text, with very long lines (6594)
+maybehere03/-file3:       data
+maybehere03/spaces file1: ASCII text, with very long lines (2189)
+maybehere03/spaces file2: ASCII text, with very long lines (3384)
+maybehere03/spaces file3: data
+maybehere04/-file1:       ASCII text, with very long lines (4409)
+maybehere04/-file2:       ASCII text, with very long lines (2618)
+maybehere04/-file3:       data
+maybehere04/spaces file1: ASCII text, with very long lines (5531)
+maybehere04/spaces file2: ASCII text, with very long lines (2490)
+maybehere04/spaces file3: data
+maybehere05/-file1:       ASCII text, with very long lines (2345)
+maybehere05/-file2:       ASCII text, with very long lines (5958)
+maybehere05/-file3:       OpenPGP Public Key
+maybehere05/spaces file1: ASCII text, with very long lines (879)
+maybehere05/spaces file2: ASCII text, with very long lines (2419)
+maybehere05/spaces file3: data
+maybehere06/-file1:       ASCII text, with very long lines (5730)
+maybehere06/-file2:       ASCII text, with very long lines (1075)
+maybehere06/-file3:       data
+maybehere06/spaces file1: ASCII text, with very long lines (4072)
+maybehere06/spaces file2: ASCII text, with very long lines (4250)
+maybehere06/spaces file3: data
+maybehere07/-file1:       ASCII text, with very long lines (3662)
+maybehere07/-file2:       ASCII text, with very long lines (2487)
+maybehere07/-file3:       data
+maybehere07/spaces file1: ASCII text, with very long lines (4129)
+maybehere07/spaces file2: ASCII text, with very long lines (9063)
+maybehere07/spaces file3: data
+maybehere08/-file1:       ASCII text, with very long lines (1076)
+maybehere08/-file2:       ASCII text, with very long lines (3824)
+maybehere08/-file3:       data
+maybehere08/spaces file1: ASCII text
+maybehere08/spaces file2: ASCII text, with very long lines (3692)
+maybehere08/spaces file3: data
+maybehere09/-file1:       ASCII text, with very long lines (3627)
+maybehere09/-file2:       ASCII text, with very long lines (773)
+maybehere09/-file3:       data
+maybehere09/spaces file1: ASCII text, with very long lines (5300)
+maybehere09/spaces file2: ASCII text, with very long lines (8715)
+maybehere09/spaces file3: data
+maybehere10/-file1:       ASCII text, with very long lines (1051)
+maybehere10/-file2:       ASCII text, with very long lines (1990)
+maybehere10/-file3:       data
+maybehere10/spaces file1: ASCII text, with very long lines (8268)
+maybehere10/spaces file2: ASCII text, with very long lines (3569)
+maybehere10/spaces file3: data
+maybehere11/-file1:       ASCII text, with very long lines (1210)
+maybehere11/-file2:       ASCII text, with very long lines (4558)
+maybehere11/-file3:       data
+maybehere11/spaces file1: ASCII text, with very long lines (3146)
+maybehere11/spaces file2: ASCII text, with very long lines (502)
+maybehere11/spaces file3: data
+maybehere12/-file1:       ASCII text, with very long lines (9677)
+maybehere12/-file2:       ASCII text
+maybehere12/-file3:       data
+maybehere12/spaces file1: ASCII text, with very long lines (2156)
+maybehere12/spaces file2: ASCII text, with very long lines (2459)
+maybehere12/spaces file3: data
+maybehere13/-file1:       ASCII text, with very long lines (1358)
+maybehere13/-file2:       ASCII text, with very long lines (1422)
+maybehere13/-file3:       data
+maybehere13/spaces file1: ASCII text, with very long lines (3951)
+maybehere13/spaces file2: ASCII text, with very long lines (951)
+maybehere13/spaces file3: data
+maybehere14/-file1:       ASCII text, with very long lines (4281)
+maybehere14/-file2:       ASCII text, with very long lines (8350)
+maybehere14/-file3:       OpenPGP Secret Key
+maybehere14/spaces file1: ASCII text, with very long lines (1381)
+maybehere14/spaces file2: ASCII text, with very long lines (870)
+maybehere14/spaces file3: data
+maybehere15/-file1:       ASCII text, with very long lines (8793)
+maybehere15/-file2:       ASCII text, with very long lines (9498)
+maybehere15/-file3:       data
+maybehere15/spaces file1: ASCII text, with very long lines (1622)
+maybehere15/spaces file2: ASCII text
+maybehere15/spaces file3: data
+maybehere16/-file1:       ASCII text, with very long lines (4276)
+maybehere16/-file2:       ASCII text, with very long lines (5300)
+maybehere16/-file3:       data
+maybehere16/spaces file1: ASCII text, with very long lines (9772)
+maybehere16/spaces file2: ASCII text, with very long lines (3145)
+maybehere16/spaces file3: data
+maybehere17/-file1:       ASCII text, with very long lines (1132)
+maybehere17/-file2:       ASCII text, with very long lines (1790)
+maybehere17/-file3:       data
+maybehere17/spaces file1: ASCII text, with very long lines (8360)
+maybehere17/spaces file2: ASCII text, with very long lines (3386)
+maybehere17/spaces file3: data
+maybehere18/-file1:       ASCII text, with very long lines (9696)
+maybehere18/-file2:       ASCII text
+maybehere18/-file3:       data
+maybehere18/spaces file1: ASCII text, with very long lines (7333)
+maybehere18/spaces file2: ASCII text, with very long lines (6347)
+maybehere18/spaces file3: data
+maybehere19/-file1:       ASCII text, with very long lines (6301)
+maybehere19/-file2:       ASCII text, with very long lines (5593)
+maybehere19/-file3:       data
+maybehere19/spaces file1: ASCII text, with very long lines (7185)
+maybehere19/spaces file2: ASCII text, with very long lines (8784)
+maybehere19/spaces file3: data
+bandit5@bandit:~/inhere$ file */{.,}* | grep "ASCII text"
+maybehere00/.file1:       ASCII text, with very long lines (550)
+maybehere00/.file2:       ASCII text, with very long lines (7835)
+maybehere01/.file2:       ASCII text, with very long lines (3069)
+maybehere02/.file1:       ASCII text, with very long lines (6350)
+maybehere02/.file2:       ASCII text, with very long lines (2576)
+maybehere03/.file1:       ASCII text, with very long lines (9768)
+maybehere03/.file2:       ASCII text, with very long lines (8879)
+maybehere04/.file1:       ASCII text, with very long lines (2439)
+maybehere04/.file2:       ASCII text, with very long lines (6143)
+maybehere05/.file1:       ASCII text, with very long lines (3200)
+maybehere05/.file2:       ASCII text, with very long lines (5916)
+maybehere06/.file1:       ASCII text, with very long lines (1270)
+maybehere06/.file2:       ASCII text, with very long lines (8975)
+maybehere07/.file1:       ASCII text, with very long lines (3064)
+maybehere07/.file2:       ASCII text, with very long lines (1000)
+maybehere08/.file1:       ASCII text, with very long lines (8168)
+maybehere08/.file2:       ASCII text, with very long lines (746)
+maybehere09/.file1:       ASCII text, with very long lines (6762)
+maybehere09/.file2:       ASCII text, with very long lines (8516)
+maybehere10/.file1:       ASCII text, with very long lines (7091)
+maybehere10/.file2:       ASCII text
+maybehere11/.file1:       ASCII text, with very long lines (451)
+maybehere11/.file2:       ASCII text, with very long lines (2500)
+maybehere12/.file1:       ASCII text, with very long lines (5814)
+maybehere12/.file2:       ASCII text, with very long lines (8243)
+maybehere13/.file1:       ASCII text, with very long lines (5257)
+maybehere13/.file2:       ASCII text, with very long lines (8951)
+maybehere14/.file1:       ASCII text, with very long lines (3426)
+maybehere14/.file2:       ASCII text, with very long lines (1502)
+maybehere15/.file1:       ASCII text, with very long lines (2158)
+maybehere15/.file2:       ASCII text
+maybehere16/.file1:       ASCII text, with very long lines (5425)
+maybehere16/.file2:       ASCII text, with very long lines (8471)
+maybehere17/.file1:       ASCII text, with very long lines (894)
+maybehere17/.file2:       ASCII text, with very long lines (8340)
+maybehere18/.file1:       ASCII text, with very long lines (5701)
+maybehere18/.file2:       ASCII text, with very long lines (2083)
+maybehere19/.file1:       ASCII text, with very long lines (7208)
+maybehere19/.file2:       ASCII text, with very long lines (4739)
+maybehere00/-file1:       ASCII text, with very long lines (1038)
+maybehere00/-file2:       ASCII text, with very long lines (9387)
+maybehere00/spaces file1: ASCII text, with very long lines (6117)
+maybehere00/spaces file2: ASCII text, with very long lines (6849)
+maybehere01/-file1:       ASCII text, with very long lines (6027)
+maybehere01/-file2:       ASCII text
+maybehere01/spaces file1: ASCII text, with very long lines (4138)
+maybehere01/spaces file2: ASCII text, with very long lines (4542)
+maybehere02/-file1:       ASCII text, with very long lines (3800)
+maybehere02/spaces file1: ASCII text, with very long lines (6745)
+maybehere02/spaces file2: ASCII text, with very long lines (8487)
+maybehere03/-file1:       ASCII text, with very long lines (314)
+maybehere03/-file2:       ASCII text, with very long lines (6594)
+maybehere03/spaces file1: ASCII text, with very long lines (2189)
+maybehere03/spaces file2: ASCII text, with very long lines (3384)
+maybehere04/-file1:       ASCII text, with very long lines (4409)
+maybehere04/-file2:       ASCII text, with very long lines (2618)
+maybehere04/spaces file1: ASCII text, with very long lines (5531)
+maybehere04/spaces file2: ASCII text, with very long lines (2490)
+maybehere05/-file1:       ASCII text, with very long lines (2345)
+maybehere05/-file2:       ASCII text, with very long lines (5958)
+maybehere05/spaces file1: ASCII text, with very long lines (879)
+maybehere05/spaces file2: ASCII text, with very long lines (2419)
+maybehere06/-file1:       ASCII text, with very long lines (5730)
+maybehere06/-file2:       ASCII text, with very long lines (1075)
+maybehere06/spaces file1: ASCII text, with very long lines (4072)
+maybehere06/spaces file2: ASCII text, with very long lines (4250)
+maybehere07/-file1:       ASCII text, with very long lines (3662)
+maybehere07/-file2:       ASCII text, with very long lines (2487)
+maybehere07/spaces file1: ASCII text, with very long lines (4129)
+maybehere07/spaces file2: ASCII text, with very long lines (9063)
+maybehere08/-file1:       ASCII text, with very long lines (1076)
+maybehere08/-file2:       ASCII text, with very long lines (3824)
+maybehere08/spaces file1: ASCII text
+maybehere08/spaces file2: ASCII text, with very long lines (3692)
+maybehere09/-file1:       ASCII text, with very long lines (3627)
+maybehere09/-file2:       ASCII text, with very long lines (773)
+maybehere09/spaces file1: ASCII text, with very long lines (5300)
+maybehere09/spaces file2: ASCII text, with very long lines (8715)
+maybehere10/-file1:       ASCII text, with very long lines (1051)
+maybehere10/-file2:       ASCII text, with very long lines (1990)
+maybehere10/spaces file1: ASCII text, with very long lines (8268)
+maybehere10/spaces file2: ASCII text, with very long lines (3569)
+maybehere11/-file1:       ASCII text, with very long lines (1210)
+maybehere11/-file2:       ASCII text, with very long lines (4558)
+maybehere11/spaces file1: ASCII text, with very long lines (3146)
+maybehere11/spaces file2: ASCII text, with very long lines (502)
+maybehere12/-file1:       ASCII text, with very long lines (9677)
+maybehere12/-file2:       ASCII text
+maybehere12/spaces file1: ASCII text, with very long lines (2156)
+maybehere12/spaces file2: ASCII text, with very long lines (2459)
+maybehere13/-file1:       ASCII text, with very long lines (1358)
+maybehere13/-file2:       ASCII text, with very long lines (1422)
+maybehere13/spaces file1: ASCII text, with very long lines (3951)
+maybehere13/spaces file2: ASCII text, with very long lines (951)
+maybehere14/-file1:       ASCII text, with very long lines (4281)
+maybehere14/-file2:       ASCII text, with very long lines (8350)
+maybehere14/spaces file1: ASCII text, with very long lines (1381)
+maybehere14/spaces file2: ASCII text, with very long lines (870)
+maybehere15/-file1:       ASCII text, with very long lines (8793)
+maybehere15/-file2:       ASCII text, with very long lines (9498)
+maybehere15/spaces file1: ASCII text, with very long lines (1622)
+maybehere15/spaces file2: ASCII text
+maybehere16/-file1:       ASCII text, with very long lines (4276)
+maybehere16/-file2:       ASCII text, with very long lines (5300)
+maybehere16/spaces file1: ASCII text, with very long lines (9772)
+maybehere16/spaces file2: ASCII text, with very long lines (3145)
+maybehere17/-file1:       ASCII text, with very long lines (1132)
+maybehere17/-file2:       ASCII text, with very long lines (1790)
+maybehere17/spaces file1: ASCII text, with very long lines (8360)
+maybehere17/spaces file2: ASCII text, with very long lines (3386)
+maybehere18/-file1:       ASCII text, with very long lines (9696)
+maybehere18/-file2:       ASCII text
+maybehere18/spaces file1: ASCII text, with very long lines (7333)
+maybehere18/spaces file2: ASCII text, with very long lines (6347)
+maybehere19/-file1:       ASCII text, with very long lines (6301)
+maybehere19/-file2:       ASCII text, with very long lines (5593)
+maybehere19/spaces file1: ASCII text, with very long lines (7185)
+maybehere19/spaces file2: ASCII text, with very long lines (8784)
+bandit5@bandit:~/inhere$ file */{.,}* | grep "ASCII text" | grep -v ', with very long lines'
+maybehere10/.file2:       ASCII text
+maybehere15/.file2:       ASCII text
+maybehere01/-file2:       ASCII text
+maybehere08/spaces file1: ASCII text
+maybehere12/-file2:       ASCII text
+maybehere15/spaces file2: ASCII text
+maybehere18/-file2:       ASCII text
+bandit5@bandit:~/inhere$ file */{.,}* | grep "ASCII text" | grep -v ', with very long lines' | ls -la
+total 88
+drwxr-x--- 22 root bandit5 4096 Sep 19 07:08 .
+drwxr-xr-x  3 root root    4096 Sep 19 07:08 ..
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere00
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere01
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere02
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere03
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere04
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere05
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere06
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere07
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere08
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere09
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere10
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere11
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere12
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere13
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere14
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere15
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere16
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere17
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere18
+drwxr-x---  2 root bandit5 4096 Sep 19 07:08 maybehere19
+bandit5@bandit:~/inhere$ du -b -a | grep 1033
+1033	./maybehere07/.file2
+bandit5@bandit:~/inhere$ file ./maybehere07/.file2
+./maybehere07/.file2: ASCII text, with very long lines (1000)
+bandit5@bandit:~/inhere$ find . -type f -size 1033c ! -executable -exec file '{}' \; | grep ASCII
+./maybehere07/.file2: ASCII text, with very long lines (1000)
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        bandit5@bandit:~/inhere$ 

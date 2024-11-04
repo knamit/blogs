@@ -1,0 +1,253 @@
+bandit9@bandit:~$ strings data.txt
+h!]v
+r>)1
+v0i)b 
+B:PyZ
+#0/u
+dyaE
+F#X[
+7$'0'T
+^^^K
+Y5}|
+9g_$
+^h#%EG
+	Fq/
+/OZ[4'
+D#?P
+POl%
+}========== the
+db*Nz
+cc5M
+`oaT
+E:zr0
+!S:%_
+yG@q-
+-c5N
+xHp\
+wS>n
+^B~9
+Q!vw
+'5jl
+. \,
+66exg
+h^Ad
+,`Cd80
+UB;N
+U@j?
+p\l=
+te24
+UNvlE
+U%^6
+JB]H:|v
+|M '
+{QMrWv
+8:%	XD
+H"hU
+/uP_
+(mhY
++6,hH
+4vjm4
+q09B
+^8NSs
+2>X)
+Y>v4
+lKUO
+U>QkM:,V
+imZ?L
+>^?X
+;c<Q=.dEXU!
+j!ZL
+jX09
+5bBK
+4Rl_7gH
+F 4Cq
+#61QW
+hqI.X
+3JprD========== passwordi
+7`4(WG
+& `T
+_eOdY
+G>Wu}
+o|)s
+z_b^
+HCg\@0
+z8N_-Z`
+v7\y
+s>|5
+!$L&
+Qm1U
+JH|)
+qi{|p
+Yy6]
+BWu7
+qC(=	
+"t<2-u
+i)W5
+Czmnf&v
+TO"'
+~fDV3========== is
+R<+{
+)DtZ
+)>tgdu
+FvkY
+Z)w,
+|:H5
+I;j@
+0V[1
+d_hnA;
+oH`w
+7=oc
+_N]d
+3>\kGG
+drfx
+}UQB
+uP6{
+hu%lLj
+F>x!&
+[^?_
+M<ls%
+"kz8I
+zP=	
+6o+u
+piUv
+a*xX$
+%!~D
+xfvO
+Oq.g
+(p^A
+-45c
+^w#K
+FP&!
+ba+D
+n.i3m
+GMKB
+#s}t
+K>]`c
+sn)>
+v8jB
+"x|L
+}ZIg
+r~rB
++_38
+Z@bj:
+~de=
+.sjd
+	qT\
+>T`q
+Ylyg<
+t1QAk
+@99F
+oxGz$W~"
+9+`1
+_$>S
+J]epm
+pfT8
+I`8l
+fL'~_
+a	Z	
+DT[N
+z9wo
+5Gfy
+"}@>bn
+O(k$N
+zw[@
+!a5^
+9Z8]
+sqEAj
+D)A'r
+an	g
+'3pp(
+s(-Qv
+3k=fQ
+usTR
+Nyz3wI
++)&_i
+WDp8
+u"o~
+p(67
+WZ+(
+?o&g
+k	 `
+~o=0
+6+$N
+:'3z
+uJw&
+&kIIJ
+b4glu
+]NJR
+ %uW
+|r_s
+zVw-
+Q$QBW
+Q{h%w
+69}=
+?uPsH
+@WG|
+%"=Y
+Pew%J
+&3[2
+*u;(%P
+dA`d
+|>,p
+oY%\
+3W`j
+D+io?
+=tZ~07
+^6Og
+Tx+X
+rs2J
+ -M8<
+Dq^B
+Qv"Y
+fk)B
+g+;Y
+ Uum
+D9========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+u1Ebi
+&x(>G
+.`EQ
+w>}x
+D%(f
+1#4!9
+:79(
+m!}B
+| Zd
+qQ>Gu
+!6D(
+J?,2
+IEO*
+uu>@	;
+KrQ!
+$V8a
+{vl0pup
+AWwyxY
+j(ue
+X<'j
+<HR]/
+7!`tcT7
+Gp(2
+FoOvx
+hF|W
+3edvE%
+_#@k
+N=~[!N
+-VSe
+a0XJ
+3;8_
+zA=?0j
+b}M>s
+%Xi-
+Qobt
+6Cjk
+H`U	^
++v J
+4(clh~U
+#R^g
+Xgz|
+)oRj
+bandit9@bandit:~$ strings data.txt | grep ===
+}========== the
+3JprD========== passwordi
+~fDV3========== is
+D9========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+bandit9@bandit:~$ 
